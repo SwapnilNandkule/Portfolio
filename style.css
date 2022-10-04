@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:wght@600&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    background-color: black;
+    box-sizing: border-box;
+}
+
+
+
+.display1{
+   
+    background-image: url('./bg3.jpg');
+    max-width: 1200px;
+    height: 600px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px aqua;
+    background-size: cover;
+    
+    
+}
+
+
+
+nav{
+    height: 50px;
+    color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    
+}
+
+nav ul{
+    color: aqua;
+    
+    display: flex;
+    
+    list-style: none;
+
+    background-color: transparent;
+}
+
+nav ul li{
+    padding: 10px 40px;
+    background-color: transparent;
+}
+
+nav ul li:hover{
+    font-size: 15px;
+    color: bisque;
+    text-decoration: underline;
+    transition-duration: 0.5s ease-in-out;
+}
+
+.bc{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    font-size: larger;
+    text-decoration: none;
+    color: aqua;
+}
+.icon img:hover{
+    width: 250px;
+    transition-duration: 0.5s ease-in-out;
+}
+.box1{
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-right;
+    color: white;
+    font-size: 30px;
+    
+    padding: 60px 40px;
+    background-color: transparent;
+   
+}
+
+#first{
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+#second{
+    background-color: transparent;
+    color: darkcyan;
+}
+
+#third{
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    color: rgb(187, 211, 255);
+    font-size: 60px;
+}
+
+#third:hover{
+    font-size: 65px;
+}
+
+
+#fourth{
+    background-color: transparent;
+    color: burlywood;
+
+}
+
+.icon{
+    background-color: transparent;
+}
+
+#B{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left{
+    color: antiquewhite;
+    background-color: transparent;
+   
+    width: 400px;
+    height: 400px;
+    font-size: larger;
+    line-height: 35px;
+    border: 5px;
+    border-color: bisque;
+    text-align-last: center
+    font-family: 'Oswald', sans-serif;
+}
+
+.left h1{
+    background-color: transparent;
+}
+
+.left p{
+    background-color: transparent;
+    color: coral;
+}
+
+.left img{
+    background-color: transparent;
+}
+
+.left img:hover{
+    width: 250px;
+    transition-duration: 0.5s ease-in-out;
+}
+.right{
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    line-height: 40px;
+    font-size: larger;
+    width: 400px;
+    height: 400px;
+    border: 5px;
+    font-size: larger;
+    border-color: beige;
+    background-color: transparent;
+    /* background-color: blueviolet; */
+}
+
+.right h1{
+    background-color: transparent;
+}
+.right li{
+    color: burlywood;
+    background-color: transparent;
+}
+#C{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#C img:hover{
+    width: 300px;
+    height: 300px;
+    transition-duration: 0.5s ease-in-out;
+}
+
+.heading{
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    color: rgb(77, 226, 141);
+    background-color: transparent;
+}
+
+.start{
+    color: rgb(230, 216, 19);
+   font-size: 25px;
+    width: 250px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.middle{
+    color: rgb(230, 216, 19);
+    font-size: 25px;
+    width: 250px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.end{
+    color: rgb(230, 216, 19);
+    font-size: 25px;
+    width: 250px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.start p{
+    padding: 30px;
+}
+
+.middle p{
+    padding: 30px;
+}
+
+.end p{
+    padding: 30px;
+}
+
+footer{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color:black;
+     color: aqua;
+     font-family: 'Roboto', sans-serif;
+}
+
+footer:hover{
+    font-size: x-large;
+    transition-duration: 0.5s ease-in-out;
+}
